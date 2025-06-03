@@ -1,4 +1,4 @@
-public class ParkingSystem {
+class ParkingSystem {
     private int big, medium, small;
 
     public ParkingSystem(int big, int medium, int small) {
