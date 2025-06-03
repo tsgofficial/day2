@@ -6,8 +6,13 @@ public class Main {
         System.out.println("Vehicle Details:");
         vehicle.displayDetails();
 
-        System.out.println("\nCar Details:");
         Car car = new Car("Honda", "Accord", 2023, 4);
+        System.out.println("\nCar Details:");
         car.displayDetails();
+
+        Truck truck = new Truck("Honda", "Accord", 2023, 4);
+        truck.refuel(50.0);
+        System.out.println("\nTruck Details:");
+        truck.displayDetails();
     }
 }
